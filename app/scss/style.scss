@@ -1,9 +1,12 @@
-div {
-	color: green;
+$blue: skyblue;
+@import '../../bower_components/normalize-scss/sass/_normalize.scss';
+@import '_navigation.scss';
+
+* {
+	list-style-type: none;
+	text-decoration: none;
 }
+
 body {
-	background: red;
-}
-body {
-	background: olive;
+	background: $blue;
 }
